@@ -1,0 +1,4 @@
+conda deactivate
+conda create -n env_chatgptclone python=3.9
+conda activate env_chatgptclone
+pip install langchain langchain-openai python-dotenv streamlit tiktoken langchain_experimental
